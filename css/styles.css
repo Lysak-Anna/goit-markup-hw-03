@@ -11,6 +11,7 @@
 
 
 /* body */
+
 .page {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
@@ -26,12 +27,24 @@
     padding-left: 15px;
     padding-right: 15px;
 
-    outline: 2px solid red;
+    /*outline: 2px solid red;*/
 
 }
 
 /* header */
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+.main-nav {
+    display: flex;
+    align-items: center;
+   
+}
 .logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+    
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -53,12 +66,33 @@
 }
 .site-nav .link,
 .contacts .link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     color: var(--primary-text-color);
 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.list .nav:not(:last-child) {
+    margin-right: 50px;
+}
+
+.site-nav {
+    display: flex;
+}
+.site-nav .list{
+    display: flex;
+    align-items: center;
+}
+
+
+.contacts {
+    display: flex;
+    margin-left: auto;
 }
 
 .contacts .link {
@@ -71,12 +105,16 @@
 }
 
 .link {
+  
     text-decoration: none;
 }
 
 ul, p, h1, h2, h3 {
     margin-top: 0;
     margin-bottom: 0;
+}
+ul {
+    padding-left: 0;
 }
 /* hero */
 .hero {
@@ -212,6 +250,14 @@ ul, p, h1, h2, h3 {
     color: var(--accent-color);
 }
 /* portfolio */
+.button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.button-list .item + .item {
+    margin-left: 8px;
+}
 .button-secondary {
     border-radius: 4px;
     padding: 6px 22px;
@@ -230,6 +276,9 @@ ul, p, h1, h2, h3 {
         
 }
 
+.port-item {
+    border: 1px solid #EEEEEE;
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
