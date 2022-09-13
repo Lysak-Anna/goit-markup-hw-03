@@ -54,8 +54,8 @@
 .site-nav .link,
 .contacts .link {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     color: var(--primary-text-color);
 
@@ -141,6 +141,8 @@ ul {
 
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+
+    border-style: none;
 
     font-family: inherit;
     font-weight: 700;
@@ -320,6 +322,8 @@ ul {
 
     color: var(--primary-text-color);
     background-color: var(--light-background-color);
+
+    border-style: none;
 
     font-family: inherit;
     font-weight: 500;
