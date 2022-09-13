@@ -142,7 +142,7 @@ ul {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 
-    border-style: none;
+    border: none;
 
     font-family: inherit;
     font-weight: 700;
@@ -323,7 +323,7 @@ ul {
     color: var(--primary-text-color);
     background-color: var(--light-background-color);
 
-    border-style: none;
+    border: none;
 
     font-family: inherit;
     font-weight: 500;
